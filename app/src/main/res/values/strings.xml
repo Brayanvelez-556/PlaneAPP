@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PlaneAPP</string>
+    <string name="planeapp">PlaneAPP</string>
+    <string name="ingresa">INGRESA</string>
+    <string name="transforma_la_ense_anza_con_facilidad_y_diversi_n_con_tu_aliado_para_planeaciones_de_actividades_de_preescolar">Transforma la enseñanza con facilidad y diversión con tu aliado para planeaciones de actividades de preescolar</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="olvidaste_tu_contrase_a">¿Olvidaste tu contraseña?</string>
 </resources>
