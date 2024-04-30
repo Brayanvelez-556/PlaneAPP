@@ -1,10 +1,13 @@
 package com.example.planeapp
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,5 +19,13 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val btnMain: Button = findViewById(R.id.button1)
+        btnMain.setOnClickListener {
+            val intent: Intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+
     }
+
 }

@@ -1,6 +1,8 @@
 package com.example.planeapp
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +17,13 @@ class LoginActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+
+        val btnRegister: Button = findViewById(R.id.button3)
+        btnRegister.setOnClickListener {
+            val intent: Intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+
         }
     }
 }
