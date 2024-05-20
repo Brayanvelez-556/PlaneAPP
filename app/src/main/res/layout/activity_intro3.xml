@@ -5,23 +5,23 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IntroActivity"
-    android:background="@drawable/intro">
+    tools:context=".IntroActivity3"
+    android:background="@drawable/intro_3">
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="359dp"
         android:layout_height="156dp"
         android:fontFamily="@font/roboto_medium"
-        android:text="¡Bienvenido/a a PlaneApp! La herramienta perfecta para una planificación organizada y sin estrés. ¡Empieza a aprovechar al máximo tu tiempo con nosotros!"
+        android:text="Ahorra tiempo al tener todas tus actividades planificadas y organizadas en un solo lugar crea experiencias de aprendizaje emocionantes y significativas para tus alumnos, fomentando su desarrollo integral Promueve la colaboración y el intercambio de ideas entre educadores, enriqueciendo así la experiencia educativa de todos"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/blue"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.61" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/button"
@@ -29,13 +29,12 @@
         android:layout_height="45dp"
         android:background="@drawable/next"
         android:backgroundTint="@color/blue"
-        android:onClick="IntroActivity2"
+        android:onClick="IntroActivity4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1"
         app:layout_constraintVertical_bias="0.079" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
