@@ -2,4 +2,5 @@
 <resources>
     <item name="editTextDetail" type="id" />
     <item name="imageView3" type="id" />
+    <item name="imageButton2" type="id" />
 </resources>
