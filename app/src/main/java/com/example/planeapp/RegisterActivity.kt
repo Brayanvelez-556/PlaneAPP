@@ -22,11 +22,18 @@ class RegisterActivity : AppCompatActivity() {
             insets
         }
 
-        val btnMain: Button = findViewById(R.id.button)
+        val btnMain: Button = findViewById(R.id.nextButton)
         btnMain.setOnClickListener {
             val intent: Intent = Intent(this, IntroActivity::class.java)
             startActivity(intent)
         }
+
+        val btnLogin: ImageButton = findViewById(R.id.imageButton1)
+        btnLogin.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+
 
 
 

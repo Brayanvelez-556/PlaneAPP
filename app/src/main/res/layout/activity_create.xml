@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,8 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CreateActivity">
-
-
 
     <ImageView
         android:id="@+id/imageView4"
@@ -51,7 +49,7 @@
         app:layout_constraintVertical_bias="0.015" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/addButton"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/purple"
@@ -81,15 +79,17 @@
         app:layout_constraintVertical_bias="0.82" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton3"
         android:layout_width="37dp"
         android:layout_height="36dp"
-        android:background="@android:color/transparent"        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.101"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.044"
         app:srcCompat="@drawable/arrow_back" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
